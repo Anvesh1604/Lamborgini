@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body{
+    height: 1500px;
+    width:100%;
+    background-color: black;
+}
+header{
+    height: 400px;
+    width: 100%;
+    background-color: red;
+    background-image: url(../../assets/image/lambopage2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+    transition-property:background-position ;
+    transition-duration: 2s,0s;
+}
+header:hover{
+    background-image: url(../../assets/image/lambopage2.jpg);
+    background-size: 100%;
+    background-position: 0px -300px;
+
+}
+#firsth1{
+    color: white;
+    padding-left: 38%;
+    padding-top: 13%;
+    font-size: 50px;
+    color: bisque;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    transition-property:padding-top;
+    transition-duration: 2s;
+}
+header:hover #firsth1{
+    padding-top: 10px;
+}
+
+#container{
+    height: 350px;
+    width: 100%;
+    background-color: red;
+}
+#first{
+    height: 350px;
+    width: 50%;
+    background-color: gold;
+    float: left;
+    background-image: url(../../assets/image/lambo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    transition-property:background-size ;
+    transition-duration: 2s;
+}
+#second{
+    height: 350px;
+    width: 50%;
+    float: left;
+    background-position: center;
+    background-color: antiquewhite;
+    background-image: url(../../assets/image/lambo1.jpg);
+    background-size: 100%;
+    transition-property:background-size ;
+    transition-duration: 2s;
+}
+#first:hover{
+    background-size:150%;
+    transition-timing-function: ease-in-out;
+    background-position: center;
+}
+#second:hover{
+    background-size: 150%;
+    background-position: center;
+}
+h1{
+    padding-top: 25%;
+    padding-left: 3%;
+    color:bisque;
+}
+
+#container2{
+    height: 350px;
+    width: 100%;
+    background-color: red;
+}
+#third{
+    height: 350px;
+    width: 50%;
+    background-color: gold;
+    float: left;
+    background-image: url(../../assets/image/lambointerior.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    transition-property:background-size ;
+    transition-duration: 2s;
+}
+#fourth{
+    height: 350px;
+    width: 50%;
+    float: left;
+    background-position: center;
+    background-color: antiquewhite;
+    background-image: url(../../assets/image/lambointerior1.jpg);
+    background-size: 100%;
+    transition-property:background-size ;
+    transition-duration: 2s;
+}
+#third:hover{
+    background-size:150%;
+    transition-timing-function: ease-in-out;
+    background-position: center;
+}
+#fourth:hover{
+    background-size: 150%;
+    background-position: center;
+}
+h1{
+    padding-top: 25%;
+    padding-left: 3%;
+    color:bisque;
+}
+
+#container3{
+    height: 350px;
+    width: 100%;
+    background-color: red;
+}
+#fifth{
+    height: 350px;
+    width: 50%;
+    background-color: gold;
+    float: left;
+    background-image: url(../../assets/image/lamboaventador.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    transition-property:background-size ;
+    transition-duration: 2s;
+}
+#sixth{
+    height: 350px;
+    width: 50%;
+    float: left;
+    background-position: center;
+    background-color: antiquewhite;
+    background-image: url(../../assets/image/lambohuricane.jpg);
+    background-size: 100%;
+    transition-property:background-size ;
+    transition-duration: 2s;
+}
+#fifth:hover{
+    background-size:150%;
+    transition-timing-function: ease-in-out;
+    background-position: center;
+}
+#sixth:hover{
+    background-size: 150%;
+    background-position: center;
+}
+h1{
+    padding-top: 25%;
+    padding-left: 3%;
+    color:bisque;
+}
